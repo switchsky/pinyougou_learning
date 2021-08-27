@@ -1,0 +1,120 @@
+.w {
+  width: 1200px;
+  margin: 0px auto;
+}
+.style_red {
+  color: #c81623;
+}
+/* 头部logo制作 */
+header {
+  height: 84px;
+  border-bottom: 2px solid #b1191a;
+  line-height: 84px;
+}
+.registerarea {
+  height: 522px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+.registerarea h3 {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 12px;
+}
+.registerarea h3 .login {
+  float: right;
+}
+.reg_form {
+  width: 600px;
+  margin: 50px auto 0;
+}
+.reg_form ul li {
+  margin-bottom: 20px;
+}
+.reg_form ul li label {
+  display: inline-block;
+  width: 88px;
+  font-size: 14px;
+  text-align: right;
+}
+.reg_form ul li input[type="text"] {
+  width: 242px;
+  height: 31px;
+  border: 1px solid #999;
+}
+.error {
+  color: #df3033;
+}
+.error_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: url("../images/error.png") no-repeat;
+  margin-top: -2px;
+}
+.sucess {
+  color: green;
+}
+.sucess_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: url("../images/success.png") no-repeat;
+  margin-top: -2px;
+}
+.reg_form ul .safe {
+  padding-left: 163px;
+  margin-top: -10px;
+}
+.reg_form ul .safe em {
+  padding: 0 12px;
+  color: #fff;
+}
+.weak {
+  background-color: #de1111;
+}
+.normal {
+  background-color: #40b83f;
+}
+.strong {
+  background-color: #f79100;
+}
+.reg_form ul .agree {
+  padding-left: 85px;
+}
+.reg_form ul .agree input[type="checkbox"] {
+  vertical-align: middle;
+}
+.reg_form ul .agree a {
+  color: #1ba1e6;
+}
+.reg_form ul .finish {
+  padding-left: 95px;
+}
+.reg_form ul .finish .btn {
+  width: 200px;
+  height: 34px;
+  color: #fff;
+  background-color: #c81623;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.footer .mod_copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+.footer .mod_copyright .links {
+  margin-bottom: 16px;
+}
+.footer .mod_copyright .links a {
+  margin: 0 3px;
+}
+.footer .mod_copyright .copyright {
+  line-height: 20px;
+}
